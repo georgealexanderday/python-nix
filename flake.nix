@@ -21,13 +21,13 @@
 
         app = pkgs.poetry2nix.mkPoetryApplication {
           projectDir = ./.;
-          python = pkgs.python39;
+          python = pkgs.python310;
           overrides = [ pkgs.poetry2nix.defaultPoetryOverrides customOverrides ];
         };
 
         env = pkgs.poetry2nix.mkPoetryEnv {
           projectDir = ./.;
-          python = pkgs.python39;
+          python = pkgs.python310;
           overrides = [ pkgs.poetry2nix.defaultPoetryOverrides customOverrides ];
           editablePackageSources = {
             example = "./example";
