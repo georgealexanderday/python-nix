@@ -3,8 +3,10 @@
 Example nix flake for use with python and poetry, using poetry2nix.
 
 nix - https://nixos.org/
+
 poetry - https://python-poetry.org/
-https://github.com/nix-community/poetry2nix
+
+poetry2nix - https://github.com/nix-community/poetry2nix
 
 ## Usage:
 
